@@ -1,3 +1,4 @@
+<!-- edited with XMLSpy v2011 sp1 (http://www.altova.com) by End User (free.org) -->
 <gfc:FC_FeatureCatalogue xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" uuid="2f293470-ffd2-455e-9b4d-aa7e3c2d7c26" xsi:schemaLocation="http://www.isotc211.org/2005/gfc https://www.isotc211.org/2005/gfc/gfc.xsd">
 	<gmx:name>
 		<gco:CharacterString>Planificación de intervención de veredas</gco:CharacterString>
@@ -84,15 +85,43 @@
 			</gfc:constrainedBy>
 			<gfc:carrierOfCharacteristics>
 				<gfc:FC_FeatureAttribute>
-					<gfc:featureType/>
+					<gfc:featureType>
+						<gfc:FC_FeatureType>
+							<gfc:typeName>
+								<gco:LocalName>Video</gco:LocalName>
+							</gfc:typeName>
+							<gfc:isAbstract>
+								<gco:Boolean>false</gco:Boolean>
+							</gfc:isAbstract>
+							<gfc:featureCatalogue/>
+							<gfc:definitionReference>
+								<gfc:FC_DefinitionReference>
+									<gfc:definitionSource/>
+								</gfc:FC_DefinitionReference>
+							</gfc:definitionReference>
+						</gfc:FC_FeatureType>
+					</gfc:featureType>
+					<gfc:constrainedBy>
+						<gfc:FC_Constraint>
+							<gfc:description>
+								<gco:CharacterString>No Permite NuLL</gco:CharacterString>
+							</gfc:description>
+						</gfc:FC_Constraint>
+					</gfc:constrainedBy>
+					<gfc:constrainedBy>
+						<gfc:FC_Constraint>
+							<gfc:description>
+								<gmd:MD_RestrictionCode codeListValue="private" codeList="./resources/codeList.xml#MD_RestrictionCode"/>
+							</gfc:description>
+						</gfc:FC_Constraint>
+					</gfc:constrainedBy>
 					<gfc:memberName>
 						<gco:LocalName>Clase_de_operacion</gco:LocalName>
 					</gfc:memberName>
 					<gfc:definition>
 						<gco:CharacterString/>
 					</gfc:definition>
-					<gfc:cardinality>
-               </gfc:cardinality>
+					<gfc:cardinality/>
 					<gfc:valueType>
 						<gco:TypeName>
 							<gco:aName>
@@ -102,26 +131,7 @@
 					</gfc:valueType>
 				</gfc:FC_FeatureAttribute>
 			</gfc:carrierOfCharacteristics>
-			<gfc:carrierOfCharacteristics>
-				<gfc:FC_FeatureAttribute>
-					<gfc:featureType/>
-					<gfc:memberName>
-						<gco:LocalName>Numero_de_operacion</gco:LocalName>
-					</gfc:memberName>
-					<gfc:definition>
-						<gco:CharacterString/>
-					</gfc:definition>
-					<gfc:cardinality>
-               </gfc:cardinality>
-					<gfc:valueType>
-						<gco:TypeName>
-							<gco:aName>
-								<gco:CharacterString>VARCHAR</gco:CharacterString>
-							</gco:aName>
-						</gco:TypeName>
-					</gfc:valueType>
-				</gfc:FC_FeatureAttribute>
-			</gfc:carrierOfCharacteristics>
+			<gfc:carrierOfCharacteristics/>
 			<gfc:carrierOfCharacteristics>
 				<gfc:FC_FeatureAttribute>
 					<gfc:memberName>
@@ -218,7 +228,7 @@
 				</gfc:FC_FeatureAttribute>
 			</gfc:carrierOfCharacteristics>
 			<gfc:carrierOfCharacteristics>
-				<gfc:FC_FeatureAttribute>
+				<gfc:FC_FeatureAttribute uuid="">
 					<gfc:memberName>
 						<gco:LocalName>ID_Contratista</gco:LocalName>
 					</gfc:memberName>
