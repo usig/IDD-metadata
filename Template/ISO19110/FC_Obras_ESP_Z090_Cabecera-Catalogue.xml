@@ -1,5 +1,4 @@
-<!-- edited with XMLSpy v2011 sp1 (http://www.altova.com) by End User (free.org) -->
-<gfc:FC_FeatureCatalogue xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" uuid="2f293470-ffd2-455e-9b4d-aa7e3c2d7c26" xsi:schemaLocation="http://www.isotc211.org/2005/gfc https://www.isotc211.org/2005/gfc/gfc.xsd">
+﻿<gfc:FC_FeatureCatalogue xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" uuid="2f293470-ffd2-455e-9b4d-aa7e3c2d7c26" xsi:schemaLocation="http://www.isotc211.org/2005/gfc https://www.isotc211.org/2005/gfc/gfc.xsd">
 	<gmx:name>
 		<gco:CharacterString>Planificación de intervención de veredas</gco:CharacterString>
 	</gmx:name>
